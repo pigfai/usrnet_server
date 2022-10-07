@@ -1,5 +1,6 @@
 /venv
 /trainsets
+/model_zoo
 /figs
 conda
 /.idea
