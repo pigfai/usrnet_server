@@ -259,5 +259,5 @@ class USRNet(nn.Module):
             
             x = self.d(x, FB, FBC, F2B, FBFy, ab[:, i:i+1, ...], sf)
             x = self.p(torch.cat((x, ab[:, i+self.n:i+self.n+1, ...].repeat(1, 1, x.size(2), x.size(3))), dim=1))
-        x = torch.exp(x)
+        # x = torch.exp(x)
         return x
