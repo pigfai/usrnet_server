@@ -1,0 +1,10 @@
+/venv
+/trainsets
+/figs
+conda
+/.idea
+/models/__pycache__/
+/options/swinir
+/options/vrt
+/utils/__pycache__
+data/__pycache__/
